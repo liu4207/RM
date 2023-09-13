@@ -85,8 +85,8 @@ void chassis_motol_speed_calculate()
 	
 	
 	  motor_speed_target[CHAS_LF] =  Vy+Vx-Wz;
-    motor_speed_target[CHAS_RF] =  Vy-Vx+Wz;
-    motor_speed_target[CHAS_RB] = Vy+Vx+Wz; 
+    motor_speed_target[CHAS_RF] =  -(Vy-Vx+Wz);
+    motor_speed_target[CHAS_RB] = -(Vy+Vx+Wz); 
     motor_speed_target[CHAS_LB] =  Vy-Vx-Wz;
 }
 //运动解算

@@ -300,6 +300,21 @@
           <WinNumber>1</WinNumber>
           <ItemText>Wz</ItemText>
         </Ww>
+        <Ww>
+          <count>27</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>rc_ctrl.rc.ch[2]</ItemText>
+        </Ww>
+        <Ww>
+          <count>28</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>rc_ctrl.rc.ch[3]</ItemText>
+        </Ww>
+        <Ww>
+          <count>29</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>rc_ctrl.rc.ch[4]</ItemText>
+        </Ww>
       </WatchWindow1>
       <WatchWindow2>
         <Ww>
