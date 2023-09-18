@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"leda\startup_stm32f427xx.o"
+"leda\main.o"
+"leda\stm32f4xx_it.o"
+"leda\stm32f4xx_hal_msp.o"
+"leda\stm32f4xx_hal_tim.o"
+"leda\stm32f4xx_hal_tim_ex.o"
+"leda\stm32f4xx_hal_uart.o"
+"leda\stm32f4xx_hal_rcc.o"
+"leda\stm32f4xx_hal_rcc_ex.o"
+"leda\stm32f4xx_hal_flash.o"
+"leda\stm32f4xx_hal_flash_ex.o"
+"leda\stm32f4xx_hal_flash_ramfunc.o"
+"leda\stm32f4xx_hal_gpio.o"
+"leda\stm32f4xx_hal_dma_ex.o"
+"leda\stm32f4xx_hal_dma.o"
+"leda\stm32f4xx_hal_pwr.o"
+"leda\stm32f4xx_hal_pwr_ex.o"
+"leda\stm32f4xx_hal_cortex.o"
+"leda\stm32f4xx_hal.o"
+"leda\stm32f4xx_hal_exti.o"
+"leda\system_stm32f4xx.o"
+--strict --scatter "leda\leda.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "leda.map" -o leda\leda.axf
